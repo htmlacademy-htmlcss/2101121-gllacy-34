@@ -1284,7 +1284,7 @@ label + label .navigation-log-in-input {
   top: -5px;
   border: 1px solid rgb(0, 0, 0, 0.5);
   display: block;
-  width: 162px;
+  max-width: 162px;
   min-height: 52px;
   padding: 10px 6px 10px 8px;
   box-sizing: border-box;
