@@ -444,14 +444,39 @@
               заказ.
             </p>
             <form class="deliver-form" method="post" name="search-form" action="https://echo.htmlacademy.ru/">
-              <label class="deliver-label date-label">Дата
+              <label class="deliver-label date-label">
+                <span class="tooltip" tabindex="0"> Дата
+                  <button class="tooltip-toggle" type="button" tabindex="1">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M8.00027 2.33333C4.87051 2.33333 2.33333 4.87051 2.33333 8.00027C2.33333 11.13 4.87051 13.6672 8.00027 13.6672C11.13 13.6672 13.6672 11.13 13.6672 8.00027C13.6672 4.87051 11.13 2.33333 8.00027 2.33333ZM1 8.00027C1 4.13413 4.13413 1 8.00027 1C11.8664 1 15.0005 4.13413 15.0005 8.00027C15.0005 11.8664 11.8664 15.0005 8.00027 15.0005C4.13413 15.0005 1 11.8664 1 8.00027ZM8.00006 7.33332C8.36825 7.33332 8.66672 7.6318 8.66672 7.99999V10.5334C8.66672 10.9016 8.36825 11.2001 8.00006 11.2001C7.63187 11.2001 7.33339 10.9016 7.33339 10.5334V7.99999C7.33339 7.6318 7.63187 7.33332 8.00006 7.33332ZM8.00006 4.79989C7.63187 4.79989 7.33339 5.09836 7.33339 5.46655C7.33339 5.83474 7.63187 6.13322 8.00006 6.13322H8.00672C8.37491 6.13322 8.67339 5.83474 8.67339 5.46655C8.67339 5.09836 8.37491 4.79989 8.00672 4.79989H8.00006Z"
+                        fill="#2D3440" />
+                    </svg>
+                  </button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-choildren">
+                    Введите дату желаемой доставки
+                  </span>
+                </span>
                 <input type="text" class="deliver-input " placeholder="01.04.2020" required>
               </label>
               <label class="deliver-label tel-label">Телефон
                 <input type="tel" class="deliver-input " placeholder="+7 800 999-00-00" required>
               </label>
-              <label class="deliver-label adres-label">Адрес
-                <input type="text" class="deliver-input " placeholder="ул. Большая Конюшенная, 19/8" required>
+              <label class="deliver-label adres-label" for="adres-input">
+                <span class="tooltip" tabindex="0">Адрес
+                  <button class="tooltip-toggle" type="button" tabindex="1">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M8.00027 2.33333C4.87051 2.33333 2.33333 4.87051 2.33333 8.00027C2.33333 11.13 4.87051 13.6672 8.00027 13.6672C11.13 13.6672 13.6672 11.13 13.6672 8.00027C13.6672 4.87051 11.13 2.33333 8.00027 2.33333ZM1 8.00027C1 4.13413 4.13413 1 8.00027 1C11.8664 1 15.0005 4.13413 15.0005 8.00027C15.0005 11.8664 11.8664 15.0005 8.00027 15.0005C4.13413 15.0005 1 11.8664 1 8.00027ZM8.00006 7.33332C8.36825 7.33332 8.66672 7.6318 8.66672 7.99999V10.5334C8.66672 10.9016 8.36825 11.2001 8.00006 11.2001C7.63187 11.2001 7.33339 10.9016 7.33339 10.5334V7.99999C7.33339 7.6318 7.63187 7.33332 8.00006 7.33332ZM8.00006 4.79989C7.63187 4.79989 7.33339 5.09836 7.33339 5.46655C7.33339 5.83474 7.63187 6.13322 8.00006 6.13322H8.00672C8.37491 6.13322 8.67339 5.83474 8.67339 5.46655C8.67339 5.09836 8.37491 4.79989 8.00672 4.79989H8.00006Z"
+                        fill="#2D3440" />
+                    </svg>
+                  </button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-choildren">
+                    Введите название улицы, дома и квартиры
+                  </span>
+                </span>
+                <input type="text" class="deliver-input " placeholder="ул. Большая Конюшенная, 19/8" id="adres-input"
+                  required>
               </label>
               <button class="deliver-form-button mailing-button" type="submit">Отправить</button>
             </form>
@@ -528,7 +553,8 @@
       </ul>
       <div class="create-with">
         <a class="create-with-link-svg" href="https://htmlacademy.ru/">
-          <svg width="101" height="35" viewBox="0 0 101 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="create-with-svg" width="101" height="35" viewBox="0 0 101 35" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_17765_368)" filter="url(#filter0_d_17765_368)">
               <path d="M4 10.4163V12.4995H5.98768V10.4163H4Z" fill="#2D3440" />
               <path
