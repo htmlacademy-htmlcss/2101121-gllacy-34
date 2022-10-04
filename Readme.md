@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Danylo Voloshyn](https://up.htmlacademy.ru/htmlcss/34/user/2101121).
-* Наставник: `Неизвестно`.
+* Наставник: [Саша Сударев](https://htmlacademy.ru/profile/id1152185)
 
 ---
 
@@ -18,7 +18,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2101121-gllacy-34) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2018235-gllacy-34) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037742-a62a72a0-7bad-11e7-9f36-4db8e9329498.jpg">
 
