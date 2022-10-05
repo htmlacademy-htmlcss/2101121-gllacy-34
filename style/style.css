@@ -1064,10 +1064,8 @@ label + label .navigation-log-in-input {
   border-radius: 16px;
   background-color: #ffffff;
   min-height: 224px;
-  background-size: 115%;
-  background-image: url("../image/backgrounds/news_info.png");
+  background-image: url("../image/backgrounds/new-info.png");
   background-repeat: no-repeat;
-  background-position: right -75px bottom -106px;
   box-sizing: border-box;
   padding: 34px 31px;
 }
@@ -1553,7 +1551,7 @@ textarea.modal-input {
 }
 
 .create-with-svg {
-  margin-bottom: 7px;
+  margin-bottom: 2px;
 }
 
 .create-with-link-svg:focus,
@@ -1779,7 +1777,7 @@ textarea.modal-input {
 
 .calatog-filter-list {
   margin: 0;
-  padding: 9px 24px;
+  padding: 5px 24px;
   list-style: none;
   display: flex;
   background: rgba(252, 252, 252, 0.3);
@@ -1972,8 +1970,9 @@ textarea.modal-input {
   min-height: 126px;
   align-items: flex-start;
   max-width: 1170px;
-  padding-top: 27px;
+  padding-top: 28px;
   padding-bottom: 2px;
+  padding-left: 161px;
 }
 
 .catalog-pagination-button {
@@ -1981,8 +1980,9 @@ textarea.modal-input {
   border-radius: 26px;
   background-clip: padding-box;
   min-width: 179px;
+  max-width: 220px;
   min-height: 44px;
-  margin: 0 auto 0 488px;
+  margin: 0 auto ;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -1995,7 +1995,6 @@ textarea.modal-input {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  max-width: 168px;
   padding-top: 10px;
   margin-right: 8px;
 }
@@ -2037,10 +2036,10 @@ textarea.modal-input {
 }
 
 .catalog-pagination-link-active {
-  width: 24px;
+  min-width: 24px;
   height: 24px;
   background: #fcfcfc;
-  border-radius: 50%;
+  border-radius: 20px;
 }
 
 .catalog-pagination-arrow {
