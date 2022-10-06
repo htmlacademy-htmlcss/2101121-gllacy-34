@@ -1340,7 +1340,7 @@ label + label .navigation-log-in-input {
   border-radius: 16px;
   width: 1170px;
   min-height: 492px;
-  background: url("../image/backgrounds/about_us.jpg") no-repeat;
+  background: url("../image/backgrounds/about-us.jpg") no-repeat;
   background-position: bottom -83px right;
   background-size: cover;
   box-sizing: border-box;
